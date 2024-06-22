@@ -1,0 +1,44 @@
+/* Write your code here. */
+.gallery-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-image {
+  width: 100%;
+}
+
+.heading {
+  color: #1e293b;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+    font-family: 'Roboto';
+  }
+}
+
+.paragraph {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 25px;
+  }
+}
+
+.image-list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
